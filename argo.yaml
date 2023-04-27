@@ -1,4 +1,4 @@
-apiVersion: argoproj.io/v1alpha1
+uapiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: argo-app
@@ -19,5 +19,5 @@ spec:
       
 
     automated:
-      selfHealed: true
+      selfHeale: true
       prune: true 
